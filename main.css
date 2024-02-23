@@ -42,6 +42,10 @@ header .container{
     color: #fff;
 }
 
+.container a:hover{
+    color: #2aa2d1;
+}
+
 #about{
     margin-top: 400px;
     
@@ -104,4 +108,36 @@ footer{
     padding: 35px;
     margin-top: 200px;
     background-image: linear-gradient(to right, #fff, #083263);
+}
+
+.forms form input,
+textarea, button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 8px;
+    width: 300px;
+    margin-top: 25px;
+    padding: 20px;
+}
+
+.forms form textarea{
+    resize: none;
+}
+
+.forms h2{
+    margin-top: 40px;
+
+}
+
+.forms form button{
+    width: 300px;
+    background-color: #fff;
+    border-color: #000;
+    border-radius: 25px;
+}
+
+.forms form button:hover{
+    background-color: #2aa2d1;
 }
